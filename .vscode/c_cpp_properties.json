@@ -1,0 +1,59 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/edicson/Downloads/Geeetech_G2s_pro_Marlin-2.0.7.2/Marlin",
+                "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/edicson/Downloads/Geeetech_G2s_pro_Marlin-2.0.7.2/.pio/libdeps/mega2560/LiquidCrystal",
+                "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/edicson/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/edicson/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/edicson/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/edicson/Downloads/Geeetech_G2s_pro_Marlin-2.0.7.2/Marlin",
+                    "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/edicson/Downloads/Geeetech_G2s_pro_Marlin-2.0.7.2/.pio/libdeps/mega2560/LiquidCrystal",
+                    "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/edicson/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/edicson/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/Users/edicson/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/edicson/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50100",
+                "ARDUINO_AVR_MEGA2560",
+                "__MARLIN_FIRMWARE__",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/edicson/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
