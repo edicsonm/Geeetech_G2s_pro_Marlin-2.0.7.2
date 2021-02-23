@@ -135,14 +135,14 @@ Error:Z-Probe failed
 
 
 Commands:
-M501
+M502
 M500
 M501
 G29 P1
 G29 T
 G29 S1
-G29 F 10.0 
+G29 F10.0 
 G29 A
-M851 Z-1.4
+M851 Z-1.20
 G28
 G26 P10
