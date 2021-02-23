@@ -118,3 +118,31 @@ Calibration OK                                rolling back.
 //action:notification Calibration sd:0.081
 .Height:190.00  Ex:+0.00  Ey:-0.51  Ez:-0.62  Radius:93.91
 Save with M500 and/or copy to Configuration.h
+
+
+
+Iteration : 05                                std dev:0.074
+//action:notification Iteration : 05
+Calibration OK                                rolling back.
+//action:notification Calibration sd:0.074
+.Height:191.73  Ex:+0.00  Ey:-1.25  Ez:-0.98  Radius:94.18
+Save with M500 and/or copy to Configuration.h
+Error:Z-Probe failed
+Error:Z-Probe failed
+
+.Height:191.73  Ex:+0.00  Ey:-1.25  Ez:-0.98  Radius:94.18
+
+
+
+Commands:
+M501
+M500
+M501
+G29 P1
+G29 T
+G29 S1
+G29 F 10.0 
+G29 A
+M851 Z-1.4
+G28
+G26 P10
